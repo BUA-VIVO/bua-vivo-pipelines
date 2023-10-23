@@ -1,0 +1,7 @@
+[server]
+port = 8502
+enableCORS = false
+
+[browser]
+serverAdress = "server.domain"
+serverPort = 8502

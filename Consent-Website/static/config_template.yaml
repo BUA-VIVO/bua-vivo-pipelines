@@ -1,0 +1,1 @@
+mongoHost: 'mongodb://user:pass@domain/database?authSource=userrole'
