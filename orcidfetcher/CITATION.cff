@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: orcidimporter
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
+authors:
+  - given-names: Rolf
+    family-names: Guescini
+    affiliation: Humboldt-Universität zu Berlin
+    orcid: 'https://orcid.org/0000-0003-4325-5751'
+repository-code: >-
+  https://github.com/BUA-VIVO/bua-vivo-pipelines/tree/main/orcidfetcher
+url: >-
+  https://github.com/BUA-VIVO/bua-vivo-pipelines/tree/main/orcidfetcher#readme
+abstract: >-
+  This script connects to ORCID's REST API over API KEYS and
+  fetches bibliographic entries for research publications by
+  person orcid identifier
+keywords:
+  - orcid
+  - research output
+  - harvest
+license: CC0-1.0
+commit: 75d9400e8cdeb5f935820ce7bc9455710433185f
+date-released: '2023-10-23'
+

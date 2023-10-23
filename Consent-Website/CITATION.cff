@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Research Output GDPR Consent
+message: ' If you use this software, please cite it using these   metadata'
+type: software
+authors:
+  - given-names: Florian
+    family-names: Kotschka
+    affiliation: Humboldt-Universität zu Berlin
+    orcid: 'https://orcid.org/0000-0001-6506-8813'
+repository-code: >-
+  https://github.com/BUA-VIVO/bua-vivo-pipelines/tree/main/Consent-Website
+abstract: >-
+  This siftware registers consent from researchers to allow
+  information about their research ouputs to be represented
+  as Linked Open Data
+keywords:
+  - GDPR
+  - DSGVO
+  - Research output
+  - Consent
+  - Linked Open Data
+license: CC-BY-SA-1.0
+commit: 0bf83e97ab9cb559737e710f33a889d235c6b926
+version: '1'
+date-released: '2023-10-23'
