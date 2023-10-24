@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: KT-ClassifierPipeline
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
+authors:
+  - given-names: Rolf
+    family-names: Guescini
+    affiliation: Humboldt-Universität zu Berlin
+    orcid: 'https://orcid.org/0000-0003-4325-5751'
+  - given-name: Florian
+    family-names: Kotschka
+    affiliation: Humboldt-Universität zu Berlin
+    orcid: 'https://orcid.org/0000-0001-6506-8813'
+repository-code: >-
+  
+url: >-
+  
+abstract: >-
+  These scripts perform pre-classifications, API-transactions for training and classification of Documents using the https://kairntech.com/ Sherpa engine
+keywords:
+  - LLM
+  - automatic classification
+license: CC0-1.0
+version: '1'
+commit: 
+date-released: '2023-10-24'
