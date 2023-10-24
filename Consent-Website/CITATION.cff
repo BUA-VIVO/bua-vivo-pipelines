@@ -13,7 +13,7 @@ authors:
 repository-code: >-
   https://github.com/BUA-VIVO/bua-vivo-pipelines/tree/main/Consent-Website
 abstract: >-
-  This siftware registers consent from researchers to allow
+  This software registers consent from researchers to allow
   information about their research ouputs to be represented
   as Linked Open Data
 keywords:
