@@ -42,10 +42,10 @@ fp_dewey = Path(filesPath, 'dewey.json')
 #for file in files:
 #    if not wait_for_job():
 #        print(str(index) + "_" + str(file) + " IN PROJECT " + os.getenv("PROJECT_NAME"))
-#        res = upload_document(os.getenv("PROJECT_NAME"), file, {"ignoreLabelling": "false", "segmentationPolicy": "no_segmentation", "splitCorpus": "false", "cleanText": "true", "generateCategoriesFromSourceFolder": "false"}, "admin", "sherpa01", str(index))
+#        res = upload_document(os.getenv("PROJECT_NAME"), file, {"ignoreLabelling": "false", "segmentationPolicy": "no_segmentation", "splitCorpus": "false", "cleanText": "true", "generateCategoriesFromSourceFolder": "false"}, os.getenv("ADMIN_USER"), os.getenv("ADMIN_PASS"), str(index))
 #        index = index + 1
 
-
+	
 # Classify PDFs over Sherpa-API
 # load_envs()
 # if not wait_for_job():
