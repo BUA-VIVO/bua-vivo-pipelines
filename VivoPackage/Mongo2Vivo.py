@@ -5,7 +5,7 @@ from tqdm import tqdm
 from mongoengine import *
 from mongoengine.base.datastructures import BaseList
 from bson.dbref import DBRef
-from functions.tools import typeAdd
+from mongo.tools import typeAdd
 from functions.context import builder
 from mongo.dbSchema import Cluster,ClusterVCard,Year,Person,VCard,VCardName,Position,MembershipRole,Authorship,Project,Publication,Journal
 
