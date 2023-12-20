@@ -24,6 +24,63 @@ def updateOwnership(db,cluster):
         obj.flag_owner = owner
         obj.save()
 
+def typeAdd(collection,collInsertString, subject):
+    tripleStart = "INSERT DATA { GRAPH <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> {"
+    tripleEnd = ".} } "
+    predicate = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
+
+    if collection == Cluster: 
+        return collInsertString
+    elif collection == Year:
+        return collInsertString
+    elif collection == Publication:
+        return collInsertString
+    elif collection == ClusterVCard:
+        object = "<http://www.w3.org/2006/vcard/ns#Organizational>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == Person:
+        object = "<http://xmlns.com/foaf/0.1/Person>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == VCard:
+        object = "<http://www.w3.org/2006/vcard/ns#Individual>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == VCardName:
+        object = "<http://www.w3.org/2006/vcard/ns#Name>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == Position:
+        object = "<http://vivoweb.org/ontology/core#Position>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == MembershipRole:
+        object = "<http://vivoweb.org/ontology/core#MemberRole>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == Authorship:
+        object = "<http://vivoweb.org/ontology/core#Authorship>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == Project:
+        object = "<http://vivoweb.org/ontology/core#Project>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+    elif collection == Journal:
+        object = "<http://purl.org/ontology/bibo/Journal>"
+        tripString = tripleStart+subject+predicate+object+tripleEnd 
+        collInsertString = collInsertString+tripString
+        return collInsertString
+
 
 
     
